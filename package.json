@@ -4,7 +4,8 @@
   "description": "Criando pipelines",
   "main": "index.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "test:ci": "NODE_ENV=testing gulp && jest -ci --runInBand --verbose",
   },
   "author": "",
   "license": "ISC"
