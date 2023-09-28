@@ -8,5 +8,8 @@
     "test:ci": "NODE_ENV=testing gulp && jest -ci --runInBand --verbose"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  }
 }
