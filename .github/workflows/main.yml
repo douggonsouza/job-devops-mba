@@ -27,13 +27,3 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-node-
 
-      # - name: Install dependencies
-      #   run: npm ci
-
-      # - name: Run tests
-      #   run: npm run test:ci
-
-      # - name: Coveralls
-      #   uses: coverallsapp/github-action@master
-      #   with:
-      #     github-token: ${{ secrets.GITHUB_TOKEN }}
